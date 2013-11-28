@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "todo-example",
+  "version": "0.0.0",
+  "description": "todo example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/emkay/todo-example.git"
+  },
+  "keywords": [
+    "todo",
+    "example"
+  ],
+  "author": "Michael Matuzak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emkay/todo-example/issues"
+  },
+  "dependencies": {
+    "ecstatic": "~0.4.12",
+    "domready": "~0.2.13",
+    "dom-queue": "~0.2.0"
+  }
+}

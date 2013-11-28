@@ -1,0 +1,61 @@
+<!doctype>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+        <style>
+            .pure-g-r {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .pure-button-add,
+            .pure-button-remove {
+                color: white;
+                border-radius: 4px;
+                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            }
+
+            .pure-button-add {
+                background: rgb(28, 184, 65);
+            }
+
+            .pure-button-remove {
+                background: rgb(202, 60, 60);
+            }
+
+            .pure-menu ul.todo-list {
+                padding: 10px;
+            }
+
+            .pure-menu ul.todo-list .item {
+                margin-top: 5px;
+            }
+        </style>
+        <script src="/bundle.js"></script>
+    </head>
+    <body>
+        <div class="pure-g-r">
+            <div class="pure-u-1">
+                <h1>TODO Example</h1>
+            </div>
+            <div class="pure-u-1-2">
+                <h2>Todo</h2>
+                <div id="list" class="pure-menu pure-menu-open">
+                </div> 
+            </div>
+
+            <div class="pure-u-1-2">
+                <div id="add-item-form" class="pure-form">
+                    <div class="pure-u-1">
+                        <label for="todo-input">What would you like to do?</label>
+                    </div>
+                    <div class="pure-u-1">
+                        <input id="todo-input" type="text" class="pure-input-rounded">
+                        <button class="pure-button pure-button-add">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
